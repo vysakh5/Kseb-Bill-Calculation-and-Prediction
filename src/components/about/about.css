@@ -1,0 +1,114 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+
+
+
+.aboutdiv {
+  margin:0px;
+  height: 60vh;
+  padding-top:20vh;
+  color:#fff;
+  font-family:'Roboto';
+  font-size:36px;
+  font-weight:100;
+  overflow:hidden;
+  animation:bg 5s linear infinite;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  margin-left: -10px;
+}
+
+.dropping-texts {
+  display: inline-block;
+  width:100%;
+  text-align: left;
+  height: 36px;
+  vertical-align: -2px;
+}
+
+.dropping-texts> div {
+  font-size:0px;
+  opacity:0;
+  margin-left:-30px;
+  position:absolute;
+  font-weight:300;   
+  box-shadow: 0px 50px 25px -20px rgba(0, 0, 0, 0.123);
+}
+
+.dropping-texts > div:nth-child(1) {
+  animation: roll 6s linear infinite 0s;
+}
+.dropping-texts > div:nth-child(2) {
+  animation: roll 6s linear infinite 1s;
+}
+.dropping-texts > div:nth-child(3) {
+  animation: roll 6s linear infinite 2s;
+}
+.dropping-texts > div:nth-child(4) {
+  animation: roll 6s linear infinite 3s;
+}
+.dropping-texts > div:nth-child(5) {
+  animation: roll 6s linear infinite 4s;
+}
+.dropping-texts > div:nth-child(6) {
+  animation: roll 6s linear infinite 5s;
+}
+
+
+
+
+@keyframes roll {
+  0% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+  }
+  20% {
+    font-size:inherit;
+    opacity:1;
+    margin-left:0px;
+    margin-top:0px;
+    transform: rotate(0deg);
+  }
+  27% {
+    font-size:0px;
+    opacity:0.5;
+    margin-left:20px;
+    margin-top:100px;
+  }
+  100% {
+    font-size:0px;
+    opacity:0;
+    margin-left:-30px;
+    margin-top:0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes bg {
+  3% {color: #0094ff;}
+  0% {color: #ff0075;}
+  20% {color: #0094ff;}
+  23% {color: #b200ff;}
+  40% {color: #b200ff;}
+  43% {color: #8BC34A;}
+  60% {color: #8BC34A;}
+  63% {color: #F44336;}
+  80% {color: #F44336;}
+  83% {color: #F44336;}
+  100% {color: #F44336;}
+}

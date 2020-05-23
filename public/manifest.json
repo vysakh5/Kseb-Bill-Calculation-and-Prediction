@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Find the bill",
+  "name": "An app for finding kseb energy usage",
   "icons": [
     {
       "src": "favicon.ico",

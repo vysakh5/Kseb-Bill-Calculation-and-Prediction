@@ -1,0 +1,30 @@
+
+footer{
+    background-color: #222f3e;
+    height: 7rem;
+    margin-top: 100px;
+    margin-left: -50px !important;
+    margin-right: -15px !important;
+    overflow-x: hidden;
+    text-align: center;
+    min-height: 100%;
+}
+.madeby{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #2980b9;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 15px !important;
+}
+.fico{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #54a0ff;
+}
+.tableh2{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}

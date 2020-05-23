@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    .billcol2{
+        margin-left: 0 !important;
+    }
+}
+
+.billfinder{
+    height: 70vh;
+}
+
+.billtitle{
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+.billcol1{
+    background-image: linear-gradient(to bottom right, #FCF525,rgb(255, 251, 145));
+    margin-top: 50px;
+    height: 200px;
+    box-shadow: 1px 4px 10px 1px rgba(77, 77, 77, 0.486);
+
+
+}
+
+.billcol2{
+    background-image: linear-gradient(to top right, #05A9DF,#25C7FC);
+    margin-top: 50px;
+    height: 200px;
+    margin-left: 100px;
+    box-shadow: 1px 4px 10px 1px rgba(77, 77, 77, 0.486);
+
+
+}
+
+.billtext1{
+    color: #30336b;
+}
