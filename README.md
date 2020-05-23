@@ -1,3 +1,4 @@
 <h2>
-<a href= ' https://find-the-bill.web.app/'>Live Demo <a>
+Live Demo
+https://find-the-bill.web.app/  
 </h2>
